@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Popup Rocket Game",
+  "version": "1.0",
+
+  "description": "A simple Firefox extension that adds a popup rocket game.",
+  "homepage_url": "https://github.com/taqi110913/learning/tree/main/firefox-addons/my-very-own-firefox-extension",
+  "icons": {
+    "48": "icons/spaceship-svg.svg"
+  },
+
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_icon": "icons/spaceship-svg.svg",
+    "default_title": "My Very Own Firefox Extension",
+    "default_popup": "popup/popup.html"
+  }
+}
